@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 900px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.noticia {
+    margin-top: 30px;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+}
+
+.noticia h2 {
+    color: #cc0000;
+}
